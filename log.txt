@@ -1,0 +1,75 @@
+Backup started at 2025-04-26T14:44:58.692464
+Stopping all running Docker containers...
+Creating new backup archive: ../backups/docker_backup_250426_144458.tar.gz
+Adding directory to archive: ../containers/ai/tavern
+Backup completed for: ../containers/ai/tavern in 4.36 seconds
+Adding directory to archive: ../containers/ai/openui
+Backup completed for: ../containers/ai/openui in 40.94 seconds
+Adding directory to archive: ../containers/cloud/calibre-web
+Backup completed for: ../containers/cloud/calibre-web in 0.02 seconds
+Adding directory to archive: ../containers/cloud/gitea
+Backup completed for: ../containers/cloud/gitea in 0.59 seconds
+Adding directory to archive: ../containers/cloud/homepage
+Backup completed for: ../containers/cloud/homepage in 0.02 seconds
+Adding directory to archive: ../containers/cloud/nextcloud
+Backup completed for: ../containers/cloud/nextcloud in 5 minute(s) and 20.46 second(s)
+Adding directory to archive: ../containers/media/jackett
+Backup completed for: ../containers/media/jackett in 0.33 seconds
+Adding directory to archive: ../containers/media/jellyfin
+Backup completed for: ../containers/media/jellyfin in 5.51 seconds
+Adding directory to archive: ../containers/media/qbit
+Backup completed for: ../containers/media/qbit in 7 minute(s) and 57.95 second(s)
+Adding directory to archive: ../containers/media/radarr
+Backup completed for: ../containers/media/radarr in 1.71 seconds
+Adding directory to archive: ../containers/media/sonarr
+Backup completed for: ../containers/media/sonarr in 1.36 seconds
+Adding directory to archive: ../containers/media/tor
+Backup completed for: ../containers/media/tor in 0.00 seconds
+Adding directory to archive: ../containers/monitoring/docking-station
+Backup completed for: ../containers/monitoring/docking-station in 0.01 seconds
+Adding directory to archive: ../containers/monitoring/uptime-kuma
+Backup completed for: ../containers/monitoring/uptime-kuma in 0.05 seconds
+Adding directory to archive: ../containers/networking/diun
+Backup completed for: ../containers/networking/diun in 0.00 seconds
+Adding directory to archive: ../containers/networking/guard
+Backup completed for: ../containers/networking/guard in 4.00 seconds
+Adding directory to archive: ../containers/networking/nginx-proxy-manager
+Backup completed for: ../containers/networking/nginx-proxy-manager in 0.11 seconds
+Adding directory to archive: ../containers/networking/portainer
+Backup completed for: ../containers/networking/portainer in 0.02 seconds
+Adding directory to archive: ../containers/networking/tor
+Backup completed for: ../containers/networking/tor in 0.00 seconds
+Adding directory to archive: ../containers/support/collabora
+Backup completed for: ../containers/support/collabora in 0.00 seconds
+Adding directory to archive: ../containers/support/mariadb
+Backup completed for: ../containers/support/mariadb in 3 minute(s) and 33.04 second(s)
+Adding directory to archive: ../containers/support/postgres
+Backup completed for: ../containers/support/postgres in 5.11 seconds
+Adding directory to archive: ../containers/support/redis
+Backup completed for: ../containers/support/redis in 0.01 seconds
+Backup completed successfully: ../backups/docker_backup_250426_144458.tar.gz
+Restarting containers in: /mnt/other/docker/containers/cloud/nextcloud
+Containers restarted successfully in: /mnt/other/docker/containers/cloud/nextcloud
+Restarting containers in: /mnt/other/docker/containers/ai/openui
+Containers restarted successfully in: /mnt/other/docker/containers/ai/openui
+Restarting containers in: /mnt/other/docker/containers/monitoring/uptime-kuma
+Containers restarted successfully in: /mnt/other/docker/containers/monitoring/uptime-kuma
+Restarting containers in: /mnt/other/docker/containers/support/postgres
+Containers restarted successfully in: /mnt/other/docker/containers/support/postgres
+Restarting containers in: /mnt/other/docker/containers/networking/portainer
+Containers restarted successfully in: /mnt/other/docker/containers/networking/portainer
+Restarting containers in: /mnt/other/docker/containers/support/redis
+Containers restarted successfully in: /mnt/other/docker/containers/support/redis
+Restarting containers in: /mnt/other/docker/containers/cloud/gitea
+Containers restarted successfully in: /mnt/other/docker/containers/cloud/gitea
+Restarting containers in: /mnt/other/docker/containers/networking/guard
+Containers restarted successfully in: /mnt/other/docker/containers/networking/guard
+Restarting containers in: /mnt/other/docker/containers/ai/tavern
+Containers restarted successfully in: /mnt/other/docker/containers/ai/tavern
+Restarting containers in: /mnt/other/docker/containers/cloud/calibre-web
+Containers restarted successfully in: /mnt/other/docker/containers/cloud/calibre-web
+Restarting containers in: /mnt/other/docker/containers/support/collabora
+Containers restarted successfully in: /mnt/other/docker/containers/support/collabora
+Restarting containers in: /mnt/other/docker/containers/cloud/homepage
+Containers restarted successfully in: /mnt/other/docker/containers/cloud/homepage
+Script finished at 2025-04-26T15:03:02.726293.

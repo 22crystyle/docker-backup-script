@@ -1,0 +1,8 @@
+name: backup_env
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.12.9=h5148396_0
+  - yaml=0.2.5=h7b6447c_0

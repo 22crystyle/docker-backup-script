@@ -1,0 +1,37 @@
+{
+    "backup_dir": "../backups",
+    "directories": [
+        "../containers/ai/tavern",
+        "../containers/ai/openui",
+
+        "../containers/cloud/calibre-web",
+        "../containers/cloud/gitea",
+        "../containers/cloud/homepage",
+        "../containers/cloud/nextcloud",
+
+        "../containers/media/jackett",
+        "../containers/media/jellyfin",
+        "../containers/media/qbit",
+        "../containers/media/radarr",
+        "../containers/media/sonarr",
+
+        "../containers/monitoring/docking-station",
+        "../containers/monitoring/uptime-kuma",
+
+        "../containers/networking/guard",
+        "../containers/networking/nginx-proxy-manager",
+        "../containers/networking/portainer",
+        "../containers/networking/tor",
+
+        "../containers/support/collabora",
+        "../containers/support/mariadb",
+        "../containers/support/postgres",
+        "../containers/support/redis"
+    ],
+    "compose_links_dir": "../composeLinks",
+    "exclude_dirs": [
+        "../containers/media/qbit/downloads"
+    ],
+    "stop_containers": true,
+    "restart_containers": true
+}
