@@ -61,7 +61,7 @@ sudo python backup.py
 ## ❓ FAQ:
 **Q:** Нужно ли иметь права `sudo`?  
  **A:** Да, если требуется остановить/запустить Docker-контейнеры.
-**Q:** Можно ли использовать без Anaconda?  
+**Q:** Можно ли использовать без Anaconda?
  **A:** Можно, установив `pyyaml` через pip:
 ```bash
 pip install pyyaml
